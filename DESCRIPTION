@@ -2,8 +2,8 @@ Package: CJS.SBias
 Type: R Package
 Title: CJS models correcting for survivorship bias
 Version: 0.1.0
-Author: Blanca Sarzo <Blanca.Sarzo@uv.es>
-Maintainer: Blanca Sarzo
+Author: Blanca Sarzo 
+Maintainer: Blanca Sarzo <Blanca.Sarzo@uv.es>
 Description: This package provides three functions to run CJS models correcting for survivorship bias.    
              There are three CJS models implemented in this R package, Mh, Mah, and Math.     
              In all cases recapture can be set to be constant or indclude age-dependence. 
