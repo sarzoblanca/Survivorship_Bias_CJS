@@ -1,5 +1,5 @@
 Package: CJS.SBias
-Type: R Package
+Type: Package
 Title: CJS models correcting for survivorship bias
 Version: 0.1.0
 Author: Blanca Sarzo 
@@ -9,7 +9,7 @@ Description: This package provides three functions to run CJS models correcting 
              In all cases recapture can be set to be constant or indclude age-dependence. 
              In Mah and Math models survival is age-dependent (although could be constant if you set 
              age classes to be 1) and Math model include temporal dependence on survival.
-License:
+License: What license it uses
 Encoding: UTF-8
 Imports: dplyr, plyr, fastGHQuad
 RoxygenNote: 7.3.2
