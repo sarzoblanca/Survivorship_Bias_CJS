@@ -1,1 +1,4 @@
 exportPattern("^[[:alpha:]]+")
+export(cSB.cjs.Mh)
+export(cSB.cjs.Mah)
+export(cSB.cjs.Math)
