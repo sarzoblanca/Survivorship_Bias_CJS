@@ -22,7 +22,7 @@ Data SHOULD have the form of a matrix of 0's and 1's with the LAST column indica
 
 ## Functions
 
-There are three functions to implement the above mentioned models:
+There are three functions to implement the above mentioned models (all in the R file: R_Functions):
 
 1) cSB.cjs.Mh -> for Mh model
 2) cSB.cjs.Mah -> for Mah model
