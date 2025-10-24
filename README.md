@@ -4,6 +4,8 @@ The goal of this R package is to implement Cormack-Jolly-Seber models that corre
 
 In this R package we have implemented three models: Mh, Mah, and Math models, where in all cases the individual heterogeneity is incorporated on survival probabilities. 
 
+The capture-history matrix is that from the study period. For further extensions (considering years previous to the study period), contact with me or check code attached to the paper on Biometrics 2025: Sarzo, B; King, R., and McCrea, R.
+
 **Mh model**
 
 The Mh models corresponds with the heterogeneity model, where survival probability is modelled with an intercept plus the individual random effect and recapture can be modelled age-dependent (or not).
@@ -18,7 +20,7 @@ In this last model we extend the dependencies on survival such that we also incl
 
 ## Data format
 
-Data SHOULD have the form of a matrix of 0's and 1's with the LAST two columns indicating the number of individuals by unique capture history and the INITIAL age of the individuals (age of the individuals at the beginning of the study). Initial ages should start in 1, otherwise it should be changed in the function.
+Data SHOULD have the form of a matrix of 0's and 1's with the LAST column indicating the INITIAL age of the individuals (age of the individuals at the beginning of the study). Initial ages should start in 1, otherwise it should be changed in the function. The funtion will transform the data to the unique capture histories by intial age directly.
 
 ## Functions
 
