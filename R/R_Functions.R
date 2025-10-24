@@ -14,7 +14,7 @@ cSB.cjs.Mh <- function(data, A,
   options(warn = -1)
   
   ## Parameters
-  n.occasions <- dim(data)[2] - 1 # last column indicates IA
+  n.occasions <- dim(data)[2] - 1 # last column indicates Initial Age
   
   ##########################################
   ## 1. Function to create the unique ch's
@@ -1140,6 +1140,7 @@ cSB.cjs.Math <- function(db, A,
 #                        age.class.p=1,
 #                        theta=c(rep(0,16)),
 #                        norule=1,seed.cjs=123)
+
 
 
 
