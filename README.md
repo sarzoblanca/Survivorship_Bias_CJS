@@ -4,7 +4,6 @@ The goal of this R package is to implement Cormack-Jolly-Seber models that corre
 
 In this R package we have implemented three models: Mh, Mah, and Math models, where in all cases the individual heterogeneity is incorporated on survival probabilities. 
 
-The capture-history matrix is that from the study period. For further extensions (considering years previous to the study period), contact with me or check code attached to the paper on Biometrics 2025: Sarzo, B; King, R., and McCrea, R.
 
 **Mh model**
 
