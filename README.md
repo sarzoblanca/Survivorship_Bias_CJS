@@ -19,7 +19,9 @@ In this last model we extend the dependencies on survival such that we also incl
 
 ## Data format
 
-Data SHOULD have the form of a matrix of 0's and 1's with the LAST column indicating the INITIAL age of the individuals (age of the individuals at the beginning of the study). Initial ages should start in 1, otherwise it should be changed in the function. The funtion will transform the data to the unique capture histories by intial age directly.
+Data SHOULD have the form of a matrix of 0's and 1's with the LAST column indicating the INITIAL age of the individuals (age of the individuals at the beginning of the study). Initial ages should start in 1, otherwise it should be changed in the function. 
+
+The funtions will transform the data to the unique capture histories by initial age directly.
 
 ## Functions
 
