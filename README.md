@@ -82,7 +82,6 @@ result.Math <- cSB.cjs.Math(db=db, A=5, age.class.surv=3,
 
 ```{r example}
 install.packages("remotes")
-
-remotes::install_github("sarzoblanca/Survivorship_Bias_CJS")                           
+remotes::install_github("sarzoblanca/Survivorship_Bias_CJS", ref = "main")                          
 ```
 
