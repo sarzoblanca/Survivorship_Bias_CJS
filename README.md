@@ -33,15 +33,15 @@ Addtionally, within this functions the unique capture-histories for each initial
 ## Imput data
 
 + Functions will require: 
-  * data: matrix of 0's and 1's and last column corresponding to the initial age of each individual.
+  * **data**: matrix of 0's and 1's and last two columns corresponding to the number of individuals with each uniqye ch (num) and the initial age of each individual (age).
   * **A**: maxim number of initial ages.
   * **theta**: set of initial values for model parameters.
-  * **norule**: number of nodes used for Quadrature - 30-40 are the recommended number - but convergence should be checked.
+  * **norule**: number of nodes used for Quadrature, 20-40 are the recommended number but convergence should be checked.
   * **seed.cjs**: seed, for reproducibility.
   * **age.class.surv**: age classes for survival probabilities.
   * **age.class.p**: age classes for recapture probabilities.
  
-+ There is available a simulated database: sim.DB.RDS
++ There is available a simulated database: sim_biom_diff_bet.RDS
 
 ## Results
 
